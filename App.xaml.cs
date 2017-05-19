@@ -9,7 +9,7 @@ using System.Windows;
 
 namespace Prism_Demo
 {
-    //Test commit from Dev
+    //Test commit
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
