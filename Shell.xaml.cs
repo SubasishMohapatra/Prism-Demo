@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Prism_Demo
+namespace PrismModularAppDemo
 {
     /// <summary>
     /// Interaction logic for Shell.xaml

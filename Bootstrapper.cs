@@ -2,7 +2,7 @@
 using Prism.Unity;
 using System.Windows;
 
-namespace Prism_Demo
+namespace PrismModularAppDemo
 {
     //This is the main bootstrapper class
     class Bootstrapper : UnityBootstrapper
@@ -24,9 +24,8 @@ namespace Prism_Demo
         {
             base.ConfigureModuleCatalog();
             ModuleCatalog moduleCatalog = (ModuleCatalog)this.ModuleCatalog;
-            moduleCatalog.AddModule(typeof(MenuModule.MenuModule));
-            moduleCatalog.AddModule(typeof(NavModule.NavModule));
-            moduleCatalog.AddModule(typeof(ContentModule.ContentModule));
+            moduleCatalog.AddModule(typeof(MathsModule.MathsModule));
+            moduleCatalog.AddModule(typeof(EnglishModule.EnglishModule));
         }
 
     }

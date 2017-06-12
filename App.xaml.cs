@@ -1,4 +1,4 @@
-﻿using Prism_Demo;
+﻿using PrismModularAppDemo;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Prism_Demo
+namespace PrismModularAppDemo
 {
     /// <summary>
     /// Interaction logic for App.xaml

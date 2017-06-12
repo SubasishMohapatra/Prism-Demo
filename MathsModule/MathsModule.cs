@@ -6,20 +6,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NavModule
+namespace MathsModule
 {
-    public class NavModule : IModule
+    public class MathsModule:IModule
     {
         private readonly IRegionManager regionManager;
 
-        public NavModule(IRegionManager regionManager)
+        public MathsModule(IRegionManager regionManager)
         {
             this.regionManager = regionManager;
         }
 
         public void Initialize()
         {
-            regionManager.RegisterViewWithRegion("NavigationRegion", typeof(Navigation));
+            regionManager.RegisterViewWithRegion("NavigationRegion", typeof(MathsNavigationItem));
         }
     }
 }
