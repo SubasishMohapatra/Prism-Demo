@@ -120,7 +120,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EnglishModule\EnglishModule.csproj">
+    <ProjectReference Include="EnglishModule\EnglishModule.csproj">
       <Project>{405e4a21-9cc5-4896-8e21-633197c13627}</Project>
       <Name>EnglishModule</Name>
     </ProjectReference>

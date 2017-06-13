@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism Modular App Demo", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathsModule", "MathsModule\MathsModule.csproj", "{FFD6194B-1B95-4883-A8ED-1604A72F2AFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishModule", "..\EnglishModule\EnglishModule.csproj", "{405E4A21-9CC5-4896-8E21-633197C13627}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishModule", "EnglishModule\EnglishModule.csproj", "{405E4A21-9CC5-4896-8E21-633197C13627}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
