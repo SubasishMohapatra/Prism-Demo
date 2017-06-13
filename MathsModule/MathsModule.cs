@@ -1,4 +1,6 @@
-﻿using Prism.Modularity;
+﻿using MathsModule.ViewModels;
+using MathsModule.Views;
+using Prism.Modularity;
 using Prism.Regions;
 using System;
 using System.Collections.Generic;
@@ -19,7 +21,8 @@ namespace MathsModule
 
         public void Initialize()
         {
-            regionManager.RegisterViewWithRegion("NavigationRegion", typeof(MathsNavigationItem));
+            regionManager.RegisterViewWithRegion("NavigationRegion", typeof(MathsMenuItemView));
+            this.regionManager.RegisterViewWithRegion("ContentRegion", typeof(MathsContentView));
         }
     }
 }
