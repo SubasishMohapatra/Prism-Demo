@@ -20,7 +20,7 @@ namespace EnglishModule
 
         public void Initialize()
         {
-            //Register all views to be displayed
+            //Register all views here to be displayed
             this.regionManager.RegisterViewWithRegion("NavigationRegion", typeof(EnglishMenuItemView));
             this.regionManager.RegisterViewWithRegion("ContentRegion", typeof(EnglishContentView));
         }
