@@ -21,6 +21,7 @@ namespace MathsModule
 
         public void Initialize()
         {
+            //Register all views
             regionManager.RegisterViewWithRegion("NavigationRegion", typeof(MathsMenuItemView));
             this.regionManager.RegisterViewWithRegion("ContentRegion", typeof(MathsContentView));
         }
